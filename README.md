@@ -1,93 +1,50 @@
 # TrustChat
-Real time messaging app
+Real-time messaging app
 # MVP Message App
 
-Bu proje, Swift ile geliştirilmiş basit bir mesajlaşma uygulamasıdır. Aynı zamanda, uygulamanın ihtiyaç duyduğu verileri sağlamak için bir API de geliştirilmiştir.
+This project is a simple messaging application developed with Swift. Additionally, an API has been developed to provide the necessary data for the application.
 
-## İçindekiler
+## Table of Contents
 
-- [Özellikler](#özellikler)
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Usage](#usage)
 - [API](#api)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Özellikler
+## Features
 
-- Kullanıcı kaydı ve oturum açma
-- Mesaj gönderme ve alma
-- Gerçek zamanlı mesajlaşma (WebSocket ile)
-- Kullanıcılar arasında mesaj geçmişini görüntüleme
+- User registration and login
+- Sending and receiving messages
+- Real-time messaging
+- Viewing message history between users
 
-## Kurulum
+## Requirements
 
-### Gereksinimler
+- iOS 17.4 or higher
+- Xcode Version 15.4 (15F31d) or higher
 
-- iOS 13.0 veya üstü
-- Xcode 12.0 veya üstü
-- Swift 5.0 veya üstü
+## Usage
 
-### Adımlar
-
-1. Bu repoyu klonlayın:
-
-    ```bash
-    git clone https://github.com/kullaniciadi/mvp-message-app.git
-    cd mvp-message-app
-    ```
-
-2. Xcode'da proje dosyasını açın:
-
-    ```bash
-    open MVPMessageApp.xcodeproj
-    ```
-
-3. Bağımlılıkları yükleyin (Eğer kullanıyorsanız, CocoaPods veya Swift Package Manager):
-
-    ```bash
-    pod install
-    ```
-
-4. API servislerini başlatın. API klasörüne gidin ve gerekli bağımlılıkları yükleyin:
-
-    ```bash
-    cd API
-    npm install
-    npm start
-    ```
-
-5. Uygulamayı çalıştırın:
-
-    Xcode'da hedef cihazı seçin ve çalıştırın (Cmd + R).
-
-## Kullanım
-
-- Uygulama açıldığında, yeni bir hesap oluşturabilir veya mevcut bir hesapla oturum açabilirsiniz.
-- Oturum açtıktan sonra, diğer kullanıcılarla mesajlaşabilirsiniz.
-- Mesajlar gerçek zamanlı olarak güncellenir.
+- When the app is opened, you can create a new account or log in with an existing account.
+- After logging in, you can message other users.
+- Messages are updated in real-time.
 
 ## API
+The API will be available on the Python Anywhere server until Sunday, August 25, 2024.
+For more information about the API, please refer to the `API` folder.
 
-API, mesajlaşma uygulamanızın sunucu tarafını oluşturur. Aşağıda bazı temel API uç noktaları bulunmaktadır:
+## Contributing
 
-- `POST /register`: Kullanıcı kaydı
-- `POST /login`: Kullanıcı girişi
-- `GET /messages`: Mesaj geçmişini al
-- `POST /messages`: Yeni mesaj gönder
+We welcome contributions! Please open an issue before making a contribution.
 
-API hakkında daha fazla bilgi için `API` klasöründeki README.md dosyasına göz atabilirsiniz.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b new-feature`
+3. Commit your changes: `git commit -am 'Add new feature'`
+4. Push to the branch: `git push origin new-feature`
+5. Open a Pull Request.
 
-## Katkıda Bulunma
+## License
 
-Katkılarınızı bekliyoruz! Lütfen katkıda bulunmadan önce bir issue açarak bize ulaşın.
-
-1. Fork yapın.
-2. Yeni bir dal (branch) oluşturun: `git checkout -b yeni-ozellik`
-3. Değişikliklerinizi commit yapın: `git commit -am 'Yeni özellik ekle'`
-4. Dalınıza push yapın: `git push origin yeni-ozellik`
-5. Bir Pull Request açın.
-
-## Lisans
-
-Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına göz atın.
+This project is licensed under the MIT License. For more information, please see the LICENSE file.
