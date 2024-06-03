@@ -10,8 +10,6 @@ This project is a simple messaging application developed with Swift. Additionall
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [API](#api)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -35,16 +33,3 @@ This project is a simple messaging application developed with Swift. Additionall
 The API will be available on the Python Anywhere server until Sunday, August 25, 2024.
 For more information about the API, please refer to the `API` folder.
 
-## Contributing
-
-We welcome contributions! Please open an issue before making a contribution.
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b new-feature`
-3. Commit your changes: `git commit -am 'Add new feature'`
-4. Push to the branch: `git push origin new-feature`
-5. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License. For more information, please see the LICENSE file.
