@@ -1,6 +1,5 @@
 # TrustChat
 Real-time messaging app
-# MVP Message App
 
 This project is a simple messaging application developed with Swift. Additionally, an API has been developed to provide the necessary data for the application.
 
