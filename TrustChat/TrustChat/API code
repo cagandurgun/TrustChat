@@ -1,3 +1,6 @@
+### API support has been discontinued.
+## https://www.youtube.com/watch?v=z6q9kug0PL0 
+
 from flask import Flask, request, jsonify
 import uuid
 
