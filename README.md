@@ -2,7 +2,7 @@
 Real-time messaging app
 
 This project is a simple messaging application developed with Swift. Additionally, an API has been developed to provide the necessary data for the application.
-
+API support has been discontinued.
 ## Table of Contents
 
 - [Features](#features)
