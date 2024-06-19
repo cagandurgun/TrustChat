@@ -1,5 +1,6 @@
 ### API support has been discontinued.
-## https://www.youtube.com/watch?v=z6q9kug0PL0 
+##  https://www.youtube.com/watch?v=z6q9kug0PL0 
+#   trust chat api
 
 from flask import Flask, request, jsonify
 import uuid
@@ -51,10 +52,13 @@ def get_messages(messageGetter):
     # Tüm mesajları JSON formatına dönüştür ve dönüş yap
     return jsonify([vars(msg) for msg in all_messages]), 200
 
+# Web site end point
 @app.route('/TrustChat')
 def index():
     return index_html
 
+
+# Web Site
 index_html = """
 <!DOCTYPE html>
 <html lang="tr">
