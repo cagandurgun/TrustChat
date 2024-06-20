@@ -30,5 +30,6 @@ API support has been discontinued.
 
 ## API
 The API will be available on the Python Anywhere server until Sunday, August 25, 2024.
-For more information about the API, please refer to the `API` folder.
+For more information about the API, please refer to the `TrustChatAPI.py
+` folder.
 
