@@ -2,7 +2,7 @@
 //  MessagesView.swift
 //  TrustChat
 //
-//  Created by Çağan Durgun on 2.08.2024.
+//  Created by Çağan Durgun on 31.05.2024.
 //
 
 import SwiftUI
