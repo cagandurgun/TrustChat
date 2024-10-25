@@ -1,8 +1,23 @@
 # TrustChat
-Real-time messaging app
 
-This project is a simple messaging application developed with Swift. Additionally, an API has been developed to provide the necessary data for the application.
-API support has been discontinued.
+This iOS application is a messaging platform developed using Swift programming language, enabling users to exchange messages in real-time.
+
+## About the Project
+
+This application is designed to meet modern communication needs and offers users the following features:
+
+* Real-time messaging capability 
+* User-friendly interface
+* Fast and reliable message delivery
+* Performance optimized for iOS devices
+
+## Technical Infrastructure
+
+The application is developed using Swift and was initially designed to work with a custom API solution. However, the API support is no longer active.
+
+---
+
+*Note: Due to the discontinuation of API services, some features of the application may be limited.*
 ## Table of Contents
 
 - [Features](#features)
